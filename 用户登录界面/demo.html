@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./iconfont.css">
+    <title>test</title>
+</head>
+
+<body>
+    <i class="iconfont icon-youhu1"></i>
+
+    <div class="root">
+        <div class="bgc">
+            <div class="title">
+                <div>
+                    设 备 管 理 云 平 台
+                </div>
+            </div>
+
+        </div>
+        <div class="login-box">
+            <div style="position: relative;">
+                <span class="iconfont icon-yonghu1"
+                    style="position: absolute; top:20px;left: 10px; font-size: 1.4rem; color: #276EF7;"></span>
+                <input type="text" placeholder="请输入用户名">
+            </div>
+
+            <div style="position: relative;">
+                <span class="iconfont icon-mima"
+                    style="position: absolute; top:20px;left: 10px; font-size: 1.4rem; color: #276EF7;"></span>
+                <input type="text" placeholder="请输入密码">
+            </div>
+
+            <div class="btn">
+                <div class="login">登 录</div>
+            </div>
+        </div>
+    </div>
+</body>
+
+</html>
+
+<style>
+    body {
+        margin: 0;
+        padding: 0;
+        font-family: "Microsoft soft";
+    }
+
+    .root {
+        position: relative;
+    }
+
+    .bgc {
+        background-color: #276EF7;
+        width: 100%;
+        height: 200px;
+    }
+
+    .bgc .title {
+        color: #fff;
+        font-style: italic;
+        text-align: center;
+        /* vertical-align: center; */
+        font-size: 24px;
+        line-height: 180px;
+    }
+
+    input {
+        width: 70%;
+        margin: 10px 0;
+        outline-style: none;
+        border: 0px;
+        padding: 14px 35px;
+        border: 1px solid #ccc;
+        border-radius: 1rem;
+        /* 取消外边框 */
+    }
+
+    .login-box {
+        margin-top: -50px;
+        /* width: 100%; */
+        /* height: 400px; */
+        margin: -50px 10px 0;
+        border-radius: .6rem;
+        background-color: #fff;
+        box-shadow: 0 8px 12px #ebedf0;
+        padding: 30px 24px;
+
+        /* background-color: red; */
+    }
+    /* 点击发光效果 */
+    input:focus {
+        border-color: #66afe9;
+        outline: 0;
+        -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
+        box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
+    }
+
+    .btn{
+        margin: 20px 0 ;
+        width: 95%;
+        height: 40px;
+        border-radius: 1.2rem;
+        text-align: center;
+        font-size: 16px;
+        background-color: #276EF7;
+    }
+    .login{
+        line-height: 40px;
+        color: #fff;
+    }
+</style>

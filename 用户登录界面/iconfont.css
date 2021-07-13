@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "iconfont"; /* Project id 2665405 */
+    src: url('//at.alicdn.com/t/font_2665405_xgqhtxxhip.woff2?t=1626151088868') format('woff2'),
+         url('//at.alicdn.com/t/font_2665405_xgqhtxxhip.woff?t=1626151088868') format('woff'),
+         url('//at.alicdn.com/t/font_2665405_xgqhtxxhip.ttf?t=1626151088868') format('truetype');
+  }
+  
+  .test{
+      color: red;
+  }
+
+  .iconfont {
+    font-family: "iconfont" !important;
+    font-size: 16px;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-yonghu:before {
+    content: "\e61e";
+  }
+  
+  .icon-mima:before {
+    content: "\e604";
+  }
+  
+  .icon-mima1:before {
+    content: "\e62e";
+  }
+  
+  .icon-dingbudaohang-zhangh:before {
+    content: "\e713";
+  }
+  
+  .icon-NMStubiao-:before {
+    content: "\e623";
+  }
+  
+  .icon-yonghu1:before {
+    content: "\e643";
+  }
+  
+  .icon-pandian:before {
+    content: "\e612";
+  }
+  
+  .icon-shijian:before {
+    content: "\e606";
+  }
+  
+  .icon-msg:before {
+    content: "\e632";
+  }
+  
+  .icon-liuyan:before {
+    content: "\e60e";
+  }
+  
+  .icon-pandian1:before {
+    content: "\e6dd";
+  }
+  
+  .icon-pandian2:before {
+    content: "\e600";
+  }
+  
+  .icon-liuyan1:before {
+    content: "\e61a";
+  }
+  
+  .icon-shebei:before {
+    content: "\e62d";
+  }
+  
+  .icon-shebeijiankongbeifen:before {
+    content: "\e667";
+  }
+  
+  .icon-xiaoxi:before {
+    content: "\e654";
+  }
+  
+  .icon-weixiudan:before {
+    content: "\e95e";
+  }
+  
+  .icon-xiaoxi1:before {
+    content: "\e602";
+  }
+  
+  .icon-shebei1:before {
+    content: "\e611";
+  }
+  
+  .icon-weixiudan1:before {
+    content: "\e6b7";
+  }
+  
+  .icon-xiaoxi2:before {
+    content: "\e610";
+  }
+  
+  .icon-touxiang:before {
+    content: "\e601";
+  }
+  
+  .icon-touxiang1:before {
+    content: "\e75d";
+  }
+  
+  .icon-buoumaotubiao46:before {
+    content: "\e629";
+  }
+  
+  .icon-sousuo:before {
+    content: "\e60f";
+  }
+  
+  .icon-shebeipandian:before {
+    content: "\e65c";
+  }
+  
+  .icon-tongji:before {
+    content: "\e642";
+  }
+  
+  .icon-saomiao:before {
+    content: "\e681";
+  }
+  
